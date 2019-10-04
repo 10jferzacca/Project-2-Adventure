@@ -1,0 +1,21 @@
+<h2>Edit Adventure:</h2>
+
+<form action="/{{adventure.id}}?_method=put" method="post">
+  <p>
+    <label>Name:</label>
+    <input type="text" value="{{adventure.name}}" name="name"/>
+  </p>
+  <p>
+    <label>Type:</label>
+    <input type="text" value="{{adventure.type}}" name="type"/>
+  </p>
+    <p>
+    <label>Location:</label>
+    <input type="text" value="{{adventure.location}}" name="location"/>
+  </p>
+    <p>
+    <label>Description:</label>
+    <input type="text" value="{{adventure.description}}" name="description"/>
+  </p>
+  <input type="submit" value="Update" />
+</form>

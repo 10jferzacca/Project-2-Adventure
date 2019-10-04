@@ -1,9 +1,9 @@
-const Adventure = require('../models/Adventure');
-const seedData = require('./seeds.json');
+const Adventure = require('../models/adventure');
+const seeds = require('./seeds.json');
 
-Adventure.remove({})
+Adventure.deleteMany({})
     .then(() => {
-        return Adventure.collection.insert(seedData);
+        return Adventure.insertMany(seeds);
     })
     .then(() => {
         console.log("Yay! Data");
