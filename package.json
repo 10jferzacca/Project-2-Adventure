@@ -1,0 +1,23 @@
+{
+  "name": "project-2-adventure",
+  "version": "1.0.0",
+  "description": "Adventure-Project-2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10jferzacca/Project-2-Adventure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/10jferzacca/Project-2-Adventure/issues"
+  },
+  "homepage": "https://github.com/10jferzacca/Project-2-Adventure#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.5"
+  }
+}
