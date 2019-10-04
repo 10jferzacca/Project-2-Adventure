@@ -6,3 +6,7 @@
 <h1>{{description}}</h1>
 
 <a href="/edit/{{id}}">edit</a>
+
+<form action="/{{id}}?_method=delete" method="post">
+  <input type="submit" value="Remove">
+</form>

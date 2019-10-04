@@ -3,6 +3,11 @@ const router = express.Router();
 
 const Adventure = require("../models/adventure");
 
+router.delete('/:id', (req, res) => {
+    Adventure.findOneAndRemove({ _id: req.params.id}).then(() => { 
+      res.redirect("/");
+      });
+    });
 
 router.post('/', (req, res) => {
     Adventure.create(req.body)
