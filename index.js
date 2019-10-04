@@ -9,7 +9,7 @@ const app = express();
 app.use(methodOverride('_method'));
 app.set("view engine", "hbs");
 app.use(parser.urlencoded({ extended: true }));
-
+app.use('/assets', express.static('public'))
 
 
 const adventuresController = require('./controllers/adventures');
