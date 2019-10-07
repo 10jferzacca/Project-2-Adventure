@@ -6,9 +6,27 @@
       "description" : "You must hike to the top of highlands bowl and then rip down some of the steepest terrain in Colorado!"
     },
     {
-    "name": "Ski Vails Backbowls",
-    "type": "Ski",
-    "location": "Highlands - Aspen, CO",
-    "description": "You must hike to the top of highlands bowl and then rip down some of the steepest terrain in Colorado!"
+      "name": "Ski Vails Backbowls",
+      "type": "Ski",
+      "location": "Highlands - Aspen, CO",
+      "description": "You must hike to the top of highlands bowl and then rip down some of the steepest terrain in Colorado!"
+      },
+    {
+      "name": "Surf a secret beach in Mexico",
+      "type": "Surf",
+      "location": "Sayulita Mexico",
+      "description": "Surf with the Locals in Mexico, catch a wave off the secret beach La Lancha"
+      },
+    {
+      "name": "Bike the 401 Trail",
+      "type": "Bike",
+      "location": "Crested Butte, CO",
+      "description": "Fly down the majeest 401 Trail in Crested Butte"
+      },
+    {
+      "name": "Sleep Under the Stars",
+      "type": "Camping",
+      "location": "Lake Powell",
+      "description": "One of the darkest places on earth is in Lake Powell, enjoy the stars in the darkest spot in the US"
       }
   ]

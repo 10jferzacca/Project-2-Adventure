@@ -5,14 +5,14 @@ const Adventure = require("../models/adventure");
 
 router.delete('/:id', (req, res) => {
     Adventure.findOneAndRemove({ _id: req.params.id}).then(() => { 
-      res.redirect("/");
+      res.redirect("/adventures");
       });
     });
 
 router.post('/', (req, res) => {
     Adventure.create(req.body)
     .then(adventure => {
-        res.redirect('/')
+        res.redirect('/adventures')
       });
   });
 
@@ -23,7 +23,15 @@ router.post('/', (req, res) => {
       });
   });
 
-router.get("/", (req, res) => {
+  router.get("/", (req, res) => {
+    Adventure.find({})
+    .then(adventures => {
+        res.render('home', {adventures});
+    })
+    .catch(err => console.error(err));
+});
+
+router.get("/adventures", (req, res) => {
     Adventure.find({})
     .then(adventures => {
         res.render('index', {adventures});
