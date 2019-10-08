@@ -11,10 +11,11 @@ body {
 .navBar {
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 1vw;
         overflow: hidden;
         background-color:gray;
         font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 4vw
 }
 
 .home {
