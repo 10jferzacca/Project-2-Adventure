@@ -5,6 +5,7 @@ const AdventureSchema = new mongoose.Schema({
   type: String,
   location: String,
   description: String,
+  img: String
 });
 
 const Adventure = mongoose.model("Adventure", AdventureSchema);

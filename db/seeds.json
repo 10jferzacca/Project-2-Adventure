@@ -3,30 +3,35 @@
       "name" : "Ski Highlands Bowl",
       "type" : "Ski",
       "location" : "Highlands - Aspen, CO",
-      "description" : "You must hike to the top of highlands bowl and then rip down some of the steepest terrain in Colorado!"
+      "description" : "You must hike to the top of highlands bowl and then rip down some of the steepest terrain in Colorado!",
+      "img" : "https://images.unsplash.com/photo-1516352267226-f5f3e4c53781?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2008&q=80"
     },
     {
       "name": "Ski Vails Backbowls",
       "type": "Ski",
       "location": "Highlands - Aspen, CO",
-      "description": "You must hike to the top of highlands bowl and then rip down some of the steepest terrain in Colorado!"
+      "description": "You must hike to the top of highlands bowl and then rip down some of the steepest terrain in Colorado!",
+      "img":"https://cdn.shopify.com/s/files/1/0102/5871/0587/products/Slopes_Prints_9x12_Page_19-shadow.jpg?v=1556687628"
       },
     {
       "name": "Surf a secret beach in Mexico",
       "type": "Surf",
       "location": "Sayulita Mexico",
-      "description": "Surf with the Locals in Mexico, catch a wave off the secret beach La Lancha"
+      "description": "Surf with the Locals in Mexico, catch a wave off the secret beach La Lancha",
+      "img":"https://images.unsplash.com/photo-1414490929659-9a12b7e31907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
       },
     {
       "name": "Bike the 401 Trail",
       "type": "Bike",
       "location": "Crested Butte, CO",
-      "description": "Fly down the majeest 401 Trail in Crested Butte"
+      "description": "Fly down the majeest 401 Trail in Crested Butte",
+      "img": "https://images.unsplash.com/photo-1464067547789-52c82f429121?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2877&q=80"
       },
     {
       "name": "Sleep Under the Stars",
       "type": "Camping",
       "location": "Lake Powell",
-      "description": "One of the darkest places on earth is in Lake Powell, enjoy the stars in the darkest spot in the US"
+      "description": "One of the darkest places on earth is in Lake Powell, enjoy the stars in the darkest spot in the US",
+      "img":"https://images.unsplash.com/photo-1475016752167-ae275e11b25d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
       }
   ]
