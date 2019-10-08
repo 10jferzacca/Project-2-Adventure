@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const Adventure = require("../models/adventure");
+const Adventure = require("../models/Adventure");
 
 router.delete('/:id', (req, res) => {
     Adventure.findOneAndRemove({ _id: req.params.id}).then(() => { 
