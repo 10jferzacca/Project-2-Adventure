@@ -1,4 +1,4 @@
-const Adventure = require('../models/adventure');
+const Adventure = require('../models/Adventure');
 const seeds = require('./seeds.json');
 
 Adventure.deleteMany({})
