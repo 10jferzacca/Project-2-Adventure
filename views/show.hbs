@@ -1,13 +1,19 @@
+<div class="show">
 <h1>Adventures</h1>
+<div class="card">
+<h2>Name: {{this.name}}</h1>
+<h2>Type: {{this.type}}</h1>
+<h2>Location: {{this.location}}</h1>
+<h2>Description: {{this.description}}</h1>
+<img src="{{this.img}}" alt="Photo of {{this.name}}">
+</div>
 
-<h1>Name: {{this.name}}</h1>
-<h1>Type: {{this.type}}</h1>
-<h1>Location: {{this.location}}</h1>
-<h1>Description: {{this.description}}</h1>
-<img src="{{this.img}}">
 
-<a href="/edit/{{id}}">edit</a>
-
+<div class="edit1">
+<a href="/edit/{{id}}">EDIT</a>
+</div>
+<div class="edit1">
 <form action="/{{id}}?_method=delete" method="post">
-  <input type="submit" value="Remove">
+  <input type="submit" value="REMOVE">
 </form>
+</div>

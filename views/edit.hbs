@@ -1,22 +1,32 @@
+<div class="editAdventure">
 <h2>Edit Adventure:</h2>
-
+<div class="editInputs">
 <form action="/{{adventure.id}}?_method=put" method="post">
   <p>
-    <label>Name:</label>
+    <label>NAME: </label>
     <input type="text" value="{{adventure.name}}" name="name"/>
   </p>
   <p>
-    <label>Type:</label>
+    <label>TYPE: </label>
     <input type="text" value="{{adventure.type}}" name="type"/>
   </p>
     <p>
-    <label>Location:</label>
+    <label>LOCATION: </label>
     <input type="text" value="{{adventure.location}}" name="location"/>
   </p>
     <p>
-    <label>Description:</label>
+    <label>DESCRIPTION:</label>
     <input type="text" value="{{adventure.description}}" name="description"/>
   </p>
+<p>
+    <label>IMAGE:</label>
+    <input type="text" value="{{adventure.img}}" name="img"/>
+  </p>
+
+</div>
+  <div class="editButton">
   <input type="submit" value="Update" />
+  </div>
 </form>
 
+</div>

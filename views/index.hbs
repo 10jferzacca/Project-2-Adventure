@@ -1,11 +1,21 @@
+<div class="index">
 <h1>Adventures!</h1>
 
 <ul>
   {{#each adventures}}
-    <li>
-        <a href="/{{this.id}}">{{this.name}}</a>
+    <li class="listItem">
+      <div class="title"> 
+          <a href="/{{this.id}}">{{this.name}}</a>
+      </div>
+      <div class="cardImage">
+        <a href="/{{this.id}}"><img src="{{this.img}}"</a>
+      </div>
+      
     </li>
+
 {{/each}}
 </ul>
-
-<a href="/new">New</a>
+<div class="new">
+<a href="/new">CREATE A NEW ADVENTURE</a>
+</div>
+</div>

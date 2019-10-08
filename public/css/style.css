@@ -3,32 +3,28 @@
 } */
 
 body {
-    background-color: black;
-    color: aliceblue
-}
+    color: black
+} 
 
 
 /* Navagation Bar Styling */
 .navBar {
         list-style-type: none;
         margin: 0;
-        padding: .5em;
+        padding: 0;
         overflow: hidden;
-        background-color:white;
+        background-color:gray;
         font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .home {
-float: left;
-color: blue;
-text-align: center;
-text-decoration: none;
-padding: .25em;
-
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: .25em;
 }
 .navBar .rightButtons{
     float: right;
-    color: blue;
     text-align: center;
     text-decoration: none;
     padding: .25em;
@@ -37,35 +33,38 @@ padding: .25em;
 .navBar a {
     text-decoration: none;
 }
- li a:hover{
-     background-color: rgba(9, 181, 215, 0.73)
+.navBar li a {
+    color: white
+}
+.navBar li a:hover{
+     background-color: white;
+     color: gray
  }
 
 
  /* Header Styling */
+.homePage h1 {
+    color: black;
+    font-family: 'Dancing Script', cursive, bold;
+    font-size: 10vw;
+    margin: 0;
+    text-align: center;
+    /* vertical-align: middle; */
+}
 
-header {
-    background: blue;
-    background-image: url("images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg");
+.homePage {
+    background-image: url("images/julentto-photography-CIuakYIjadc-unsplash.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
-    width: 100%;
-    height: 500pv;
-    display: flex;
+    height: 1000px;
+    padding-top: 30px;
     justify-content: center;
     align-items: center;
     
 }
 
-header h1 {
-    color: white;
-    font-family: 'Dancing Script', cursive, bold;
-    font-size: 15vw;
-    margin: 0;
-    text-align: center;
-    vertical-align: middle;
-}
+
 
 /* body styling */
 
@@ -75,17 +74,29 @@ text-align: center;
 font-size:  5vw
 }
 
+
 .homePage a {
     text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: white;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto
 }
-.homePage a {
-    text-decoration: none;
-    font-family: 'Open Sans Condensed', sans-serif;
+.homePage .findAdventure{
+    margin-left: 35%;
+    width: 20%;
+    text-align: center;
+    border: solid black;
+    border-radius: 25px;
+    color:black;
+    font-size: 3vw;
     background-color: white;
-    color: black
+    padding: 1vw 3vw;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+
 
 ul {
  list-style-type: none;
@@ -96,4 +107,141 @@ li {
 }
 a {
     text-decoration: none;
+}
+
+/* Index Page */
+
+.index {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: white;
+    
+}
+
+.index h1 {
+    color: black;
+    font-family: 'Dancing Script', cursive, bold;
+    font-size: 14vw;
+    margin: 20px;
+    text-align: center;
+}
+
+.index li a {
+    color: black;
+    text-align: center
+    
+}
+
+.index img {
+    height:40vw;
+}
+.index .listItem {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 8vw;
+    text-decoration: underline;
+}
+.index .new :visited{
+    color:black; 
+}
+.index .new {
+    text-decoration: none;
+    margin-left: 40%;
+    width: 20%;
+    text-align: center;
+    border: solid black;
+    border-radius: 25px;
+    color:black;
+    font-size: 3vw;
+    background-color: white;
+    padding: 1vw 3vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Show Index Styling */
+
+.show h1 {
+        color: black;
+        font-family: 'Dancing Script', cursive, bold;
+        font-size: 14vw;
+        margin: 20px;
+        text-align: center
+}
+
+.show .card {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.show img {
+    height:80vw;
+    max-width: 95vw;
+}
+.edit1 {
+    display: inline-block;
+    size: 10vw
+
+}
+.edit1 a, .edit1 input {
+    border: solid black;
+    border-radius: 25px;
+    color:black;
+    font-size: 3vw;
+    background-color: white;
+    padding: 1vw 3vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.edit1 a:hover{
+    background-color: #545454;
+    color: white
+}
+.edit1 input:hover{
+    background-color: #545454;
+    color: white
+}
+
+
+/* CREATE A NEW ADVENTURE */
+
+.newAdventure {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.newAdventure .createButton input {
+    border: solid black;
+    border-radius: 25px;
+    color:black;
+    font-size: 3vw;
+    background-color: white;
+    padding: 1vw 3vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.newAdventure .createButton input:hover {
+    background-color: #545454;
+    color: white
+}
+
+/* Edit An Adventure */
+
+.editAdventure {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.editAdventure .editButton input {
+    border: solid black;
+    border-radius: 25px;
+    color:black;
+    font-size: 3vw;
+    background-color: white;
+    padding: 1vw 3vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.editAdventure .editButton input:hover {
+    background-color: #545454;
+    color: white
+}
+
+.editAdventure .editInputs input {
+    width: 80vw;
 }
