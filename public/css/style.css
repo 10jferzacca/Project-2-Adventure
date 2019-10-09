@@ -1,17 +1,25 @@
-/* * {
-    border: solid gold;
-} */
 
 body {
     color: black
 } 
 
+ul {
+    list-style-type: none;
+    text-decoration: none;
+   }
+li {
+    text-decoration: none;
+   }
+a {
+    text-decoration: none;
+   }
 
-/* Navagation Bar Styling */
+   /* Navagation Bar Styling */
+
 .navBar {
         list-style-type: none;
         margin: 0;
-        padding: 1vw;
+        padding: 10px;
         overflow: hidden;
         background-color:gray;
         font-family: 'Open Sans Condensed', sans-serif;
@@ -42,7 +50,6 @@ body {
      color: gray
  }
 
-
  /* Header Styling */
 .homePage h1 {
     color: black;
@@ -50,7 +57,6 @@ body {
     font-size: 10vw;
     margin: 0;
     text-align: center;
-    /* vertical-align: middle; */
 }
 
 .homePage {
@@ -58,14 +64,11 @@ body {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
-    height: 1000px;
+    height: 90em;
     padding-top: 30px;
     justify-content: center;
     align-items: center;
-    
 }
-
-
 
 /* body styling */
 
@@ -74,7 +77,6 @@ font-family: 'Bad Script', cursive;
 text-align: center;
 font-size:  5vw
 }
-
 
 .homePage a {
     text-decoration: none;
@@ -96,18 +98,6 @@ font-size:  5vw
     background-color: white;
     padding: 1vw 3vw;
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-
-ul {
- list-style-type: none;
- text-decoration: none;
-}
-li {
-    text-decoration: none;
-}
-a {
-    text-decoration: none;
 }
 
 /* Index Page */
@@ -200,7 +190,6 @@ a {
     color: white
 }
 
-
 /* CREATE A NEW ADVENTURE */
 
 .newAdventure {
@@ -245,4 +234,157 @@ a {
 
 .editAdventure .editInputs input {
     width: 80vw;
+}
+
+
+/* MEDIA QUERY OVER 400 */
+
+
+@media (min-width: 400px){
+   /* Navagation Bar Styling */
+
+.navBar {
+    
+    margin: 0;
+    padding: 10px;
+    font-size: 4vw
+}
+
+.home {
+padding: .25em;
+}
+
+.navBar .rightButtons{
+padding: .25em;
+}
+
+/* Header Styling */
+.homePage h1 {
+font-size: 10vw;
+margin: 0;
+}
+
+.homePage {
+height: 90em;
+padding-top: 30px;
+}
+
+/* body styling */
+
+.homePage h2 {
+font-size:  5vw
+}
+
+.homePage .findAdventure{
+font-size: 3vw;
+padding: 1vw 3vw;
+}
+
+/* Index Page */
+
+.index h1 {
+font-size: 14vw;
+margin: 20px;
+}
+
+.index img {
+height:40vw;
+}
+.index .listItem {
+margin-top: 30px;
+font-size: 8vw;
+}
+
+.index .new {
+border-radius: 25px;
+font-size: 3vw;
+padding: 1vw 3vw;
+}
+
+/* Show Index Styling */
+
+.show h1 {
+    font-size: 14vw;
+    margin: 20px;
+    text-align: center
+}
+
+.show .card {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.show img {
+height:80vw;
+max-width: 95vw;
+}
+.edit1 {
+display: inline-block;
+size: 10vw
+
+}
+.edit1 a, .edit1 input {
+border: solid black;
+border-radius: 25px;
+color:black;
+font-size: 3vw;
+background-color: white;
+padding: 1vw 3vw;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.edit1 a:hover{
+background-color: #545454;
+color: white
+}
+.edit1 input:hover{
+background-color: #545454;
+color: white
+}
+
+/* CREATE A NEW ADVENTURE */
+
+.newAdventure {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.newAdventure .createButton input {
+border: solid black;
+border-radius: 25px;
+color:black;
+font-size: 3vw;
+background-color: white;
+padding: 1vw 3vw;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.newAdventure .createButton input:hover {
+background-color: #545454;
+color: white
+}
+
+/* Edit An Adventure */
+
+.editAdventure {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.editAdventure .editButton input {
+border: solid black;
+border-radius: 25px;
+color:black;
+font-size: 3vw;
+background-color: white;
+padding: 1vw 3vw;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.editAdventure .editButton input:hover {
+background-color: #545454;
+color: white
+}
+
+.editAdventure .editInputs input {
+width: 80vw;
+}
+
 }
