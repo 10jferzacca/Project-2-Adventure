@@ -1,5 +1,11 @@
 # Project-2 - Adventure Project
 
+## Link to Website
+https://adventureproject.herokuapp.com
+
+## Link to Screen Cast
+https://www.youtube.com/watch?v=Vz3nbnX4B5M
+
 ## User Story
 Adventure Project is a Full Stack Web Application built during my time at General Assembly in a Software Engineering Immersive Program. The idea of Adventure Project comes from a desire to share adventures with the community. Using HTML, CSS, JavaScript, Express, Handlebars and Mongoose I created a full-stack application to help the outdoor enthusiests show, create, edit and delete there adventures in a blog style format.
 ### Successes
