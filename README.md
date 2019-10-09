@@ -2,6 +2,8 @@
 
 Adventure Project is a Full Stack Web Application built during my time in Software Engineering Immersive Program at General Assembly. The idea of Adventure Project comes from a desire to share adventures with the community. Using HTML, CSS, JavaScript, Express, Handlebars and Mongoose I created a full-stack application to help the outdoor enthusiests share there adventures.
 
+![image](Diagram.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
