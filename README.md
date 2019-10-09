@@ -1,6 +1,14 @@
 # Project-2 - Adventure Project
 
-Adventure Project is a Full Stack Web Application built during my time in Software Engineering Immersive Program at General Assembly. The idea of Adventure Project comes from a desire to share adventures with the community. Using HTML, CSS, JavaScript, Express, Handlebars and Mongoose I created a full-stack application to help the outdoor enthusiests share there adventures.
+## User Story
+Adventure Project is a Full Stack Web Application built during my time at General Assembly in a Software Engineering Immersive Program. The idea of Adventure Project comes from a desire to share adventures with the community. Using HTML, CSS, JavaScript, Express, Handlebars and Mongoose I created a full-stack application to help the outdoor enthusiests show, create, edit and delete there adventures in a blog style format.
+### Successes
+Some successes were the ability to add and allow users to had images
+
+### Things to work on  and difficulties
+Some difficulties were seperating types of adventures so then there could be a specific page for each type of advenutre.
+
+## Full-Stack Web Application Diagram for Adventure Project
 
 ![image](Diagram.png)
 
@@ -39,7 +47,10 @@ Handlebars
 
 ## Contributing
 
+Would love help creating user profiles where they can select adventures and mark when they complete.
+
 For contributions please submit pull request here. (https://github.com/10jferzacca/Project-2-Adventure)
+
 
 ## Authors
 
