@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
   router.put('/:id', (req, res) => {
     Adventure.findOneAndUpdate({_id: req.params.id}, req.body, { new: true })
       .then(adventure => {
-        res.redirect('/')
+        res.redirect('/adventures')
       });
   });
 
